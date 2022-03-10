@@ -1,5 +1,11 @@
 function saleHotdogs(n){
-    return ?;
+    if (n < 5){
+        return 100 * n;
+    } else if (n >= 5 && n <10){
+        return 95 * n;
+    } else {
+        return 90 * n;
+    }
 }
 
 console.log(saleHotdogs(1)); // 100
